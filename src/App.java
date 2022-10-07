@@ -7,6 +7,12 @@ public class App {
 
         int n = sc.nextInt();
 
+        imprimirLinhas(n);
+
         sc.close();
+    }
+
+    private static void imprimirLinhas(int n) {
+        System.out.println(n);
     }
 }
