@@ -12,7 +12,9 @@ public class App {
         sc.close();
     }
 
-    private static void imprimirLinhas(int n) {
-        System.out.println(n);
+    public static void imprimirLinhas(int n) {
+        for (int i = 1; i <= n; i++) {
+           System.out.println(i);
+        }
     }
 }
